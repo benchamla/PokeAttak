@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B517E590198E0ED8005F9B9D /* pikachou.png in Resources */ = {isa = PBXBuildFile; fileRef = B517E58F198E0ED8005F9B9D /* pikachou.png */; };
+		B55D1E341981FB9100DB69DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1E331981FB9100DB69DB /* Foundation.framework */; };
+		B55D1E361981FB9100DB69DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1E351981FB9100DB69DB /* CoreGraphics.framework */; };
+		B55D1E381981FB9100DB69DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1E371981FB9100DB69DB /* UIKit.framework */; };
+		B55D1E3E1981FB9100DB69DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E3C1981FB9100DB69DB /* InfoPlist.strings */; };
+		B55D1E401981FB9100DB69DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D1E3F1981FB9100DB69DB /* main.m */; };
+		B55D1E441981FB9100DB69DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D1E431981FB9100DB69DB /* AppDelegate.m */; };
+		B55D1E471981FB9100DB69DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E451981FB9100DB69DB /* Main.storyboard */; };
+		B55D1E4A1981FB9100DB69DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D1E491981FB9100DB69DB /* ViewController.m */; };
+		B55D1E4C1981FB9100DB69DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E4B1981FB9100DB69DB /* Images.xcassets */; };
+		B55D1E531981FB9100DB69DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1E521981FB9100DB69DB /* XCTest.framework */; };
+		B55D1E541981FB9100DB69DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1E331981FB9100DB69DB /* Foundation.framework */; };
+		B55D1E551981FB9100DB69DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55D1E371981FB9100DB69DB /* UIKit.framework */; };
+		B55D1E5D1981FB9100DB69DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E5B1981FB9100DB69DB /* InfoPlist.strings */; };
+		B55D1E5F1981FB9100DB69DB /* PokeAttakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D1E5E1981FB9100DB69DB /* PokeAttakTests.m */; };
+		B55D1E741981FBC700DB69DB /* café.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E681981FBC700DB69DB /* café.png */; };
+		B55D1E751981FBC700DB69DB /* carapus.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E691981FBC700DB69DB /* carapus.png */; };
+		B55D1E761981FBC700DB69DB /* Kadabra.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E6A1981FBC700DB69DB /* Kadabra.png */; };
+		B55D1E771981FBC700DB69DB /* Onix.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E6B1981FBC700DB69DB /* Onix.png */; };
+		B55D1E7A1981FBC700DB69DB /* Pokemon.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E6E1981FBC700DB69DB /* Pokemon.png */; };
+		B55D1E7B1981FBC700DB69DB /* Roucoul.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E6F1981FBC700DB69DB /* Roucoul.png */; };
+		B55D1E7C1981FBC700DB69DB /* Salamech.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E701981FBC700DB69DB /* Salamech.png */; };
+		B55D1E7D1981FBC700DB69DB /* Togepi.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E711981FBC700DB69DB /* Togepi.png */; };
+		B55D1E7F1981FBC700DB69DB /* Toxic.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E731981FBC700DB69DB /* Toxic.png */; };
+		B55D1E831982029000DB69DB /* Pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = B55D1E821982029000DB69DB /* Pokeball.png */; };
+		B55D1E861982D20100DB69DB /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55D1E851982D20100DB69DB /* GameViewController.m */; };
+		B58BC6F51994C2FD009497FC /* poop.png in Resources */ = {isa = PBXBuildFile; fileRef = B58BC6F41994C2FD009497FC /* poop.png */; };
+		B58BC6F7199577FF009497FC /* CROCO.png in Resources */ = {isa = PBXBuildFile; fileRef = B58BC6F6199577FF009497FC /* CROCO.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55D1E561981FB9100DB69DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55D1E281981FB9100DB69DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55D1E2F1981FB9100DB69DB;
+			remoteInfo = PokeAttak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B517E58F198E0ED8005F9B9D /* pikachou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pikachou.png; sourceTree = "<group>"; };
+		B55D1E301981FB9100DB69DB /* PokeAttak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeAttak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55D1E331981FB9100DB69DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B55D1E351981FB9100DB69DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B55D1E371981FB9100DB69DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B55D1E3B1981FB9100DB69DB /* PokeAttak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokeAttak-Info.plist"; sourceTree = "<group>"; };
+		B55D1E3D1981FB9100DB69DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B55D1E3F1981FB9100DB69DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B55D1E411981FB9100DB69DB /* PokeAttak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokeAttak-Prefix.pch"; sourceTree = "<group>"; };
+		B55D1E421981FB9100DB69DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B55D1E431981FB9100DB69DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B55D1E461981FB9100DB69DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55D1E481981FB9100DB69DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B55D1E491981FB9100DB69DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B55D1E4B1981FB9100DB69DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B55D1E511981FB9100DB69DB /* PokeAttakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeAttakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55D1E521981FB9100DB69DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B55D1E5A1981FB9100DB69DB /* PokeAttakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokeAttakTests-Info.plist"; sourceTree = "<group>"; };
+		B55D1E5C1981FB9100DB69DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B55D1E5E1981FB9100DB69DB /* PokeAttakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokeAttakTests.m; sourceTree = "<group>"; };
+		B55D1E681981FBC700DB69DB /* café.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "café.png"; sourceTree = "<group>"; };
+		B55D1E691981FBC700DB69DB /* carapus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carapus.png; sourceTree = "<group>"; };
+		B55D1E6A1981FBC700DB69DB /* Kadabra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kadabra.png; sourceTree = "<group>"; };
+		B55D1E6B1981FBC700DB69DB /* Onix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onix.png; sourceTree = "<group>"; };
+		B55D1E6E1981FBC700DB69DB /* Pokemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokemon.png; sourceTree = "<group>"; };
+		B55D1E6F1981FBC700DB69DB /* Roucoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Roucoul.png; sourceTree = "<group>"; };
+		B55D1E701981FBC700DB69DB /* Salamech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Salamech.png; sourceTree = "<group>"; };
+		B55D1E711981FBC700DB69DB /* Togepi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Togepi.png; sourceTree = "<group>"; };
+		B55D1E731981FBC700DB69DB /* Toxic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Toxic.png; sourceTree = "<group>"; };
+		B55D1E821982029000DB69DB /* Pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball.png; sourceTree = "<group>"; };
+		B55D1E841982D20100DB69DB /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		B55D1E851982D20100DB69DB /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		B58BC6F41994C2FD009497FC /* poop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poop.png; sourceTree = "<group>"; };
+		B58BC6F6199577FF009497FC /* CROCO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CROCO.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55D1E2D1981FB9100DB69DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55D1E361981FB9100DB69DB /* CoreGraphics.framework in Frameworks */,
+				B55D1E381981FB9100DB69DB /* UIKit.framework in Frameworks */,
+				B55D1E341981FB9100DB69DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55D1E4E1981FB9100DB69DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55D1E531981FB9100DB69DB /* XCTest.framework in Frameworks */,
+				B55D1E551981FB9100DB69DB /* UIKit.framework in Frameworks */,
+				B55D1E541981FB9100DB69DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55D1E271981FB9100DB69DB = {
+			isa = PBXGroup;
+			children = (
+				B55D1E391981FB9100DB69DB /* PokeAttak */,
+				B55D1E581981FB9100DB69DB /* PokeAttakTests */,
+				B55D1E321981FB9100DB69DB /* Frameworks */,
+				B55D1E311981FB9100DB69DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55D1E311981FB9100DB69DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55D1E301981FB9100DB69DB /* PokeAttak.app */,
+				B55D1E511981FB9100DB69DB /* PokeAttakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55D1E321981FB9100DB69DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55D1E331981FB9100DB69DB /* Foundation.framework */,
+				B55D1E351981FB9100DB69DB /* CoreGraphics.framework */,
+				B55D1E371981FB9100DB69DB /* UIKit.framework */,
+				B55D1E521981FB9100DB69DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B55D1E391981FB9100DB69DB /* PokeAttak */ = {
+			isa = PBXGroup;
+			children = (
+				B55D1E421981FB9100DB69DB /* AppDelegate.h */,
+				B55D1E431981FB9100DB69DB /* AppDelegate.m */,
+				B55D1E451981FB9100DB69DB /* Main.storyboard */,
+				B55D1E481981FB9100DB69DB /* ViewController.h */,
+				B55D1E491981FB9100DB69DB /* ViewController.m */,
+				B55D1E841982D20100DB69DB /* GameViewController.h */,
+				B55D1E851982D20100DB69DB /* GameViewController.m */,
+				B55D1E4B1981FB9100DB69DB /* Images.xcassets */,
+				B55D1E3A1981FB9100DB69DB /* Supporting Files */,
+			);
+			path = PokeAttak;
+			sourceTree = "<group>";
+		};
+		B55D1E3A1981FB9100DB69DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55D1E681981FBC700DB69DB /* café.png */,
+				B58BC6F41994C2FD009497FC /* poop.png */,
+				B58BC6F6199577FF009497FC /* CROCO.png */,
+				B55D1E691981FBC700DB69DB /* carapus.png */,
+				B517E58F198E0ED8005F9B9D /* pikachou.png */,
+				B55D1E6A1981FBC700DB69DB /* Kadabra.png */,
+				B55D1E6B1981FBC700DB69DB /* Onix.png */,
+				B55D1E821982029000DB69DB /* Pokeball.png */,
+				B55D1E6E1981FBC700DB69DB /* Pokemon.png */,
+				B55D1E6F1981FBC700DB69DB /* Roucoul.png */,
+				B55D1E701981FBC700DB69DB /* Salamech.png */,
+				B55D1E711981FBC700DB69DB /* Togepi.png */,
+				B55D1E731981FBC700DB69DB /* Toxic.png */,
+				B55D1E3B1981FB9100DB69DB /* PokeAttak-Info.plist */,
+				B55D1E3C1981FB9100DB69DB /* InfoPlist.strings */,
+				B55D1E3F1981FB9100DB69DB /* main.m */,
+				B55D1E411981FB9100DB69DB /* PokeAttak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B55D1E581981FB9100DB69DB /* PokeAttakTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55D1E5E1981FB9100DB69DB /* PokeAttakTests.m */,
+				B55D1E591981FB9100DB69DB /* Supporting Files */,
+			);
+			path = PokeAttakTests;
+			sourceTree = "<group>";
+		};
+		B55D1E591981FB9100DB69DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55D1E5A1981FB9100DB69DB /* PokeAttakTests-Info.plist */,
+				B55D1E5B1981FB9100DB69DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55D1E2F1981FB9100DB69DB /* PokeAttak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55D1E621981FB9100DB69DB /* Build configuration list for PBXNativeTarget "PokeAttak" */;
+			buildPhases = (
+				B55D1E2C1981FB9100DB69DB /* Sources */,
+				B55D1E2D1981FB9100DB69DB /* Frameworks */,
+				B55D1E2E1981FB9100DB69DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeAttak;
+			productName = PokeAttak;
+			productReference = B55D1E301981FB9100DB69DB /* PokeAttak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55D1E501981FB9100DB69DB /* PokeAttakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55D1E651981FB9100DB69DB /* Build configuration list for PBXNativeTarget "PokeAttakTests" */;
+			buildPhases = (
+				B55D1E4D1981FB9100DB69DB /* Sources */,
+				B55D1E4E1981FB9100DB69DB /* Frameworks */,
+				B55D1E4F1981FB9100DB69DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55D1E571981FB9100DB69DB /* PBXTargetDependency */,
+			);
+			name = PokeAttakTests;
+			productName = PokeAttakTests;
+			productReference = B55D1E511981FB9100DB69DB /* PokeAttakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55D1E281981FB9100DB69DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ben Chamla";
+				TargetAttributes = {
+					B55D1E501981FB9100DB69DB = {
+						TestTargetID = B55D1E2F1981FB9100DB69DB;
+					};
+				};
+			};
+			buildConfigurationList = B55D1E2B1981FB9100DB69DB /* Build configuration list for PBXProject "PokeAttak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55D1E271981FB9100DB69DB;
+			productRefGroup = B55D1E311981FB9100DB69DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55D1E2F1981FB9100DB69DB /* PokeAttak */,
+				B55D1E501981FB9100DB69DB /* PokeAttakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55D1E2E1981FB9100DB69DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55D1E7F1981FBC700DB69DB /* Toxic.png in Resources */,
+				B517E590198E0ED8005F9B9D /* pikachou.png in Resources */,
+				B55D1E7C1981FBC700DB69DB /* Salamech.png in Resources */,
+				B55D1E771981FBC700DB69DB /* Onix.png in Resources */,
+				B55D1E761981FBC700DB69DB /* Kadabra.png in Resources */,
+				B55D1E7A1981FBC700DB69DB /* Pokemon.png in Resources */,
+				B55D1E741981FBC700DB69DB /* café.png in Resources */,
+				B55D1E831982029000DB69DB /* Pokeball.png in Resources */,
+				B55D1E4C1981FB9100DB69DB /* Images.xcassets in Resources */,
+				B55D1E751981FBC700DB69DB /* carapus.png in Resources */,
+				B55D1E3E1981FB9100DB69DB /* InfoPlist.strings in Resources */,
+				B58BC6F51994C2FD009497FC /* poop.png in Resources */,
+				B58BC6F7199577FF009497FC /* CROCO.png in Resources */,
+				B55D1E7D1981FBC700DB69DB /* Togepi.png in Resources */,
+				B55D1E471981FB9100DB69DB /* Main.storyboard in Resources */,
+				B55D1E7B1981FBC700DB69DB /* Roucoul.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55D1E4F1981FB9100DB69DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55D1E5D1981FB9100DB69DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55D1E2C1981FB9100DB69DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55D1E861982D20100DB69DB /* GameViewController.m in Sources */,
+				B55D1E4A1981FB9100DB69DB /* ViewController.m in Sources */,
+				B55D1E441981FB9100DB69DB /* AppDelegate.m in Sources */,
+				B55D1E401981FB9100DB69DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55D1E4D1981FB9100DB69DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55D1E5F1981FB9100DB69DB /* PokeAttakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55D1E571981FB9100DB69DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55D1E2F1981FB9100DB69DB /* PokeAttak */;
+			targetProxy = B55D1E561981FB9100DB69DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55D1E3C1981FB9100DB69DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55D1E3D1981FB9100DB69DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B55D1E451981FB9100DB69DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55D1E461981FB9100DB69DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55D1E5B1981FB9100DB69DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55D1E5C1981FB9100DB69DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55D1E601981FB9100DB69DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B55D1E611981FB9100DB69DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55D1E631981FB9100DB69DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokeAttak/PokeAttak-Prefix.pch";
+				INFOPLIST_FILE = "PokeAttak/PokeAttak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B55D1E641981FB9100DB69DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokeAttak/PokeAttak-Prefix.pch";
+				INFOPLIST_FILE = "PokeAttak/PokeAttak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B55D1E661981FB9100DB69DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PokeAttak.app/PokeAttak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokeAttak/PokeAttak-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PokeAttakTests/PokeAttakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B55D1E671981FB9100DB69DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PokeAttak.app/PokeAttak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokeAttak/PokeAttak-Prefix.pch";
+				INFOPLIST_FILE = "PokeAttakTests/PokeAttakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55D1E2B1981FB9100DB69DB /* Build configuration list for PBXProject "PokeAttak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55D1E601981FB9100DB69DB /* Debug */,
+				B55D1E611981FB9100DB69DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55D1E621981FB9100DB69DB /* Build configuration list for PBXNativeTarget "PokeAttak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55D1E631981FB9100DB69DB /* Debug */,
+				B55D1E641981FB9100DB69DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55D1E651981FB9100DB69DB /* Build configuration list for PBXNativeTarget "PokeAttakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55D1E661981FB9100DB69DB /* Debug */,
+				B55D1E671981FB9100DB69DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55D1E281981FB9100DB69DB /* Project object */;
+}

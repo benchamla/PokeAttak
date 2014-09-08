@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kadabra.png" translatesAutoresizingMaskIntoConstraints="NO" id="QfK-5f-7tK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.32433380393702282" blue="0.67019786005434789" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.44968744071544975" green="0.37088414499213801" blue="0.98913043479999996" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PokeAttak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWS-Wg-T60">
+                                <rect key="frame" x="43" y="123" width="247" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.98913043479999996" green="0.1248216489" blue="0.1059618742" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pokemon.png" translatesAutoresizingMaskIntoConstraints="NO" id="HBi-xn-em9">
+                                <rect key="frame" x="37" y="38" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqA-9K-Nw5">
+                                <rect key="frame" x="43" y="387" width="247" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hX3-ZS-7kk" kind="modal" id="i4X-qK-Z7m"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catch them all " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJ4-yM-ITu">
+                                <rect key="frame" x="20" y="469" width="280" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="229" y="26"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="8Cg-hK-T0J">
+            <objects>
+                <viewController id="hX3-ZS-7kk" customClass="GameViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y2U-nH-rOT"/>
+                        <viewControllerLayoutGuide type="bottom" id="jfM-pE-cFu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jVV-dd-A7l">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7X-Xa-V2f">
+                                <rect key="frame" x="129" y="224" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Start:" destination="hX3-ZS-7kk" eventType="touchUpInside" id="WhH-fX-8BD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEd-hj-P75">
+                                <rect key="frame" x="137" y="269" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Exit">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="oL4-FG-uZi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trg-za-P7F">
+                                <rect key="frame" x="138" y="504" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Pokeball.png" backgroundImage="Pokeball.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Shoot:" destination="hX3-ZS-7kk" eventType="touchUpInside" id="hZx-jG-2P8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pokemon.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Dp-G5-bA7">
+                                <rect key="frame" x="120" y="461" width="81" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pokeball.png" translatesAutoresizingMaskIntoConstraints="NO" id="ERq-1b-w2e">
+                                <rect key="frame" x="200" y="550" width="11" height="13"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;-- Shoot!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqh-Xq-P6M">
+                                <rect key="frame" x="185" y="515" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shoot! -->" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CU8-wM-nLe">
+                                <rect key="frame" x="56" y="515" width="79" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kadabra.png" translatesAutoresizingMaskIntoConstraints="NO" id="u4g-zZ-5sQ">
+                                <rect key="frame" x="50" y="39" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Onix.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Md-TO-q9o">
+                                <rect key="frame" x="137" y="39" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Roucoul.png" translatesAutoresizingMaskIntoConstraints="NO" id="O4T-KI-Bhs">
+                                <rect key="frame" x="50" y="100" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CROCO.png" translatesAutoresizingMaskIntoConstraints="NO" id="rvN-GR-Ecb">
+                                <rect key="frame" x="87" y="238" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Togepi.png" translatesAutoresizingMaskIntoConstraints="NO" id="F80-E2-Pug">
+                                <rect key="frame" x="186" y="243" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="carapus.png" translatesAutoresizingMaskIntoConstraints="NO" id="5BO-em-JXJ">
+                                <rect key="frame" x="87" y="165" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="café.png" translatesAutoresizingMaskIntoConstraints="NO" id="RWm-c1-ii0">
+                                <rect key="frame" x="186" y="165" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Salamech.png" translatesAutoresizingMaskIntoConstraints="NO" id="kZe-Py-iyW">
+                                <rect key="frame" x="137" y="100" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Toxic.png" translatesAutoresizingMaskIntoConstraints="NO" id="JC7-YR-muA">
+                                <rect key="frame" x="225" y="100" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pikachou.png" translatesAutoresizingMaskIntoConstraints="NO" id="HuL-xQ-1SI">
+                                <rect key="frame" x="225" y="39" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poop.png" translatesAutoresizingMaskIntoConstraints="NO" id="otI-0f-2YD">
+                                <rect key="frame" x="147" y="12" width="10" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poop.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uet-Uz-daa">
+                                <rect key="frame" x="10" y="555" width="10" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poop.png" translatesAutoresizingMaskIntoConstraints="NO" id="ssE-9M-zhN">
+                                <rect key="frame" x="233" y="12" width="10" height="10"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Lose!! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2V-Hx-p9L">
+                                <rect key="frame" x="20" y="338" width="274" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="Bullet" destination="ERq-1b-w2e" id="IfX-m8-Vve"/>
+                        <outlet property="Exit" destination="jEd-hj-P75" id="sTg-3f-F4g"/>
+                        <outlet property="Monster1" destination="u4g-zZ-5sQ" id="H9n-A8-fT8"/>
+                        <outlet property="Monster10" destination="F80-E2-Pug" id="EnP-Yl-sgQ"/>
+                        <outlet property="Monster2" destination="9Md-TO-q9o" id="Ogv-fj-Mnz"/>
+                        <outlet property="Monster3" destination="HuL-xQ-1SI" id="7Gk-dd-AWL"/>
+                        <outlet property="Monster4" destination="O4T-KI-Bhs" id="jBi-dG-cUU"/>
+                        <outlet property="Monster5" destination="kZe-Py-iyW" id="O3r-Qj-XBC"/>
+                        <outlet property="Monster6" destination="JC7-YR-muA" id="aY4-68-rlt"/>
+                        <outlet property="Monster7" destination="5BO-em-JXJ" id="U8e-Pk-WDG"/>
+                        <outlet property="Monster8" destination="RWm-c1-ii0" id="xcW-6r-dh3"/>
+                        <outlet property="Monster9" destination="rvN-GR-Ecb" id="CTb-5i-Dus"/>
+                        <outlet property="Poop1" destination="Uet-Uz-daa" id="LPs-JH-wDD"/>
+                        <outlet property="Poop2" destination="otI-0f-2YD" id="dQy-ls-rwD"/>
+                        <outlet property="Poop3" destination="ssE-9M-zhN" id="wp9-iF-4K3"/>
+                        <outlet property="Ship" destination="7Dp-G5-bA7" id="tpE-Mj-OKk"/>
+                        <outlet property="Shoot" destination="trg-za-P7F" id="PsG-m2-k8c"/>
+                        <outlet property="Shoot1" destination="CU8-wM-nLe" id="OL1-fH-mDK"/>
+                        <outlet property="Shoot2" destination="fqh-Xq-P6M" id="TCY-dg-nSS"/>
+                        <outlet property="Start" destination="J7X-Xa-V2f" id="utZ-h1-IjV"/>
+                        <outlet property="Winorlose" destination="S2V-Hx-p9L" id="bDc-Il-E2e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n59-zB-DFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="575" y="-40"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CROCO.png" width="554" height="657"/>
+        <image name="Kadabra.png" width="1000" height="1136"/>
+        <image name="Onix.png" width="458" height="483"/>
+        <image name="Pokeball.png" width="894" height="893"/>
+        <image name="Pokemon.png" width="800" height="294"/>
+        <image name="Roucoul.png" width="260" height="240"/>
+        <image name="Salamech.png" width="834" height="958"/>
+        <image name="Togepi.png" width="346" height="374"/>
+        <image name="Toxic.png" width="253" height="219"/>
+        <image name="café.png" width="224" height="249"/>
+        <image name="carapus.png" width="911" height="849"/>
+        <image name="pikachou.png" width="260" height="240"/>
+        <image name="poop.png" width="900" height="797"/>
+    </resources>
+    <color key="tintColor" red="0.14903297176991326" green="0.17280328745026152" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
